@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: blueviolet;
+    font-family: Roboto;
+}
+h1 {
+    margin-top: 10px;
+    color: #57f129;
+}
+
+.container {
+    max-width: 600px;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+
+    margin-top: 50px;
+
+    background-color: rgba(0, 0, 0, 0.623);
+
+    border: none;
+    border-radius: 60px;
+}
+
+.operacoes {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    
+
+    
+
+    margin: 0 auto;
+}
+
+.operacoes button {
+    width: 30%;
+    height: 30%;
+    
+    margin: 0 auto;
+
+    margin-top: 50px;
+
+    border: 1px solid rgba(0, 0, 255, 0.288);
+    border-radius: 60px;
+
+    background-color: rgb(24, 80, 199);
+    color: aliceblue;
+
+    font-size: 30px;
+
+    cursor: pointer;
+
+    transition: 300ms;
+    
+}
+
+.operacoes button:hover{
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#contador {
+   
+
+    width: 30%;
+    height: 30%;
+
+    align-self: center;
+    
+    color: white;
+    font-size: 40px;
+
+    margin-bottom: 50px;
+}
